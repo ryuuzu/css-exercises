@@ -1,0 +1,19 @@
+.odd {
+    background-color: pink;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#oneID {
+    color: blue;
+    font-size: 36px;
+}
+
+.oddButCooler {
+    font-size: 24px;
+}
+
+#anotherID {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
