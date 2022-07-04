@@ -1,4 +1,7 @@
 .header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: monospace;
   background: papayawhip;
 }
@@ -9,6 +12,13 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px auto;
+}
+
+.left-links ul, .right-links ul {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
 }
 
 ul {
