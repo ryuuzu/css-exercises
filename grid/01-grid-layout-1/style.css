@@ -1,3 +1,4 @@
+
 body, html {
   height: 100%;
   margin: 0;
@@ -20,18 +21,22 @@ body, html {
 }
 
 .header {
+  grid-area: header;
   background-color: #FFDE22;
 }
 
 .sidebar {
+  grid-area: sidebar;
   background-color: #FF7755;
 }
 
 .nav {
+  grid-area: nav;
   background-color: #00DDFF;
 }
 
 .article {
+  grid-area: article;
   background-color: #bccbde;
 }
 
@@ -43,5 +48,17 @@ body, html {
 }
 
 .footer {
+  grid-area: footer;
   background-color: #393f4d;
 }
+
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template: 12.5% 12.5% 62.5% 12.5% / 25% 75%;
+  grid-template-areas: "header header"
+  "sidebar nav"
+  "sidebar article"
+  "footer footer";
+}
+
